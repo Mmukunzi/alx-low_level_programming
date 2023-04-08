@@ -2,12 +2,13 @@
 #include <unistd.h>
 
 /*
- * main entry point for every code in c
+ *main - Entry point Begining point
+ *Return: 1
  */
 int main(void) 
 {
 
-	printf("and that piece of art is useful\" - Dora Korpar, 2015-10-19");
+	write("and that piece of art is useful\" - Dora Korpar, 2015-10-19");
 
 	return (1);
 }
